@@ -1,68 +1,86 @@
+* {
+    margin: 0;
+    padding: 0 0 0 0;
+    box-sizing: 0;
+}
 nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
     margin: 15px 0 0 15px;
     text-decoration: none;
+    padding: 0 0 0 0;
 }
 
 nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
+    padding: 0 0 0 0;
 }
 
 nav a:hover {
     font-size: 18px;
-    color: red;
+    color: rgb(0, 0, 0);
+    padding: 0 0 0 0;
+}
+a {
+    color: white;
+    font-size: 1.05em;
+    text-decoration: underline;
+    padding: 0 0 0 0;
+}
+
+a:hover {
+    font-size: 1.05em;
+    color: black;
+    padding: 0 0 0 0;
 }
 
 body {
-    background-image:url("imagens/National-Theatre-San-Jose-Costa-Rica.webp");
+    margin: 0;
+    padding: 0 0 0 0;
+    line-height: 1.5;
+    text-align: center;
+    font-family: sans-serif;    
+    background-image:url("imagens/fundo10.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;    
+    background-position: right top;
 }
 
 #capa {
     width: 100%;
     float: center;
-    top: 0px;
 }
 
-.topo {
-    color: black;
-    text-align: right;
-    font-weight: bolder;
-    font-size: 1em;
+header { 
     position:static;
 }
 
 .titulo {
-    color:#230083;
-    text-align: center;
-    margin: 10px;    
-}
-
-h1 {
-    border: 3px;
-    font-size: 3em;
-    font-weight: bolder;
-    color:#230083;
-    text-align: center;
-    margin: 10px;  
-}
-
-h2 {
-    border: 3px;
-    font-size: 2.5em;
-    font-weight: bolder; 
-    color:#4003e9;
+    color: #ffffff;
     text-align: center;
     margin: 10px;
 }
 
+h1 {
+    border: 3px;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+h2 {
+    border: 3px;
+    font-size: 1.5em;
+    font-weight: bolder; 
+}
+
 .titulo2 {
-    color:#4003e9;
+    color: #ffffff;
     text-align: center;
     margin: 10px;
     border: 1px dotted white;
@@ -73,7 +91,7 @@ div {
 }
 
 h3 {
-    color:#230083;
+    color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -82,27 +100,18 @@ h3 {
 }
 
 p {
-    color:  rgb(0, 0, 0);
+    color:  #ffffff;
     margin-left: 40px;
     text-align: justify;
     margin-right: 20px;
     font-size: 1.05em;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-#cidade {
-    width: 70%;
-    justify-content: center;
-}
-
-.selecao {
-    height: 400px;
-    justify-content: center;
+    text-indent: 50px;
 }
 
 li {
-    color:  #000000;
+    color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -121,31 +130,31 @@ li {
 }
 
 table {
-    color:  black;
+    color:  white;
     margin: 0 20px 0 20px;
-    border-color: black;
+    border-color: white solid 2px;
     font-size: 1.05em;
     align: center;
     vertical-align: middle;
 }
 
 th {
-    color:  black;    
+    color:  white;   
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 40px;
     text-align: center;
     vertical-align: middle;
     font-size: 1.05em;
-    border: 2px solid rgba(163, 0, 63, 0.588);
+    border: 2px solid white;
     padding: 10px;
 }
 td {
-    color:  black;
+    color:  white;
     text-align: center;
     vertical-align: middle;
     font-size: 1.05em;
-    border: 2px solid rgba(163, 0, 63, 0.588);
+    border: 2px solid white;
     padding: 10px;
 }
 
@@ -177,7 +186,7 @@ td {
 .mascot {
     height: 300px;
     justify-content: center;
-    margin: 20px;
+    margin: 0px;
 }
 
 #bandeiras {
@@ -220,18 +229,17 @@ td {
 }
 
 #Ranking{
-    color: black;
-    background-image: url(imagens/fundob2.jpg);
+    color:  white;
     width: 100%;
     float: center;
 }
 
 .Ranking{
-    color: black;
+    color:  white;
 }
 td, li {
-    color: black;
-    vertical-align:middle;
+    color:  white;
+    vertical-align: middle;
 }
 
 .topicos {
@@ -263,6 +271,20 @@ h4 {
     font-size: 1.05em;
 }
 
+#rodape {
+    width: 100%;
+    float: center;
+}
+
+.copyright {
+    color:  white;
+    text-align: center;
+    font-size: 1em;
+    border: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
 .vertical {
     height: 250px;
     width: 2px;
@@ -284,8 +306,11 @@ h4 {
 .absolute {
     height: 10px;
     width: 140px;
+    border: 1px solid blue;
+    background-color: blueviolet;
     position: absolute;
-    top: 0px;   
+    top: 20px;
+    right:20px;   
 }
 
 .fixed {
@@ -304,20 +329,4 @@ h4 {
     position: sticky;
     top: 0px;
     left: 150px;
-}
-
-.copyright {
-    color:  #000000;
-    text-align: center;
-    font-size: 1em;
-}
-
-footer {
-    text-align: center;
-    font-size: 13px;
-    border: black solid 1px;
-    background-color: rgb(160, 0, 0);
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
 }
