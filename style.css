@@ -51,6 +51,10 @@ a:hover {
     float: center;
 }
 
+header { 
+    margin: 0 0 0 0;
+    position:static;
+}
 body {
     margin: 200px 0 0 0;
     padding: 0 0 0 0;
@@ -69,10 +73,6 @@ body {
     width: 60%;
     float: center;
     justify-content: center;
-}
-
-header { 
-    position:static;
 }
 
 h1 {
