@@ -6,8 +6,8 @@
 nav li {
     display: inline;
     font: 1.1em sans-serif;
-    float: right;
-    margin: 15px 0 0 15px;
+    float: left;
+    margin: 0 0 0 15px;
     text-decoration: none;
     padding: 0 0 0 0;
 }
