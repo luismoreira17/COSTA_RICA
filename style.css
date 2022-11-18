@@ -26,6 +26,14 @@ nav a:hover {
     color: rgb(199, 0, 0);
     padding: 0 0 0 0;
 }
+.topo {
+    color: black;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 1em;
+    position:static;
+}
+
 a {
     color: white;
     font-size: 1.05em;
@@ -47,9 +55,9 @@ body {
     font-family: sans-serif;    
     background-image:url("imagens/fundo10.jpg");
     background-size: cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;    
-    background-position: center;
+    background-repeat:repeat-y;
+    background-attachment: fixed;
+    background-position: left top;
 }
 
 #cidade {
@@ -62,29 +70,22 @@ header {
     position:static;
 }
 
-.titulo {
+h1 {
     color: blue;
     text-align: center;
     margin: 10px;
-}
-
-h1 {
     border: 3px;
     font-size: 2em;
     font-weight: bolder; 
 }
 
 h2 {
-    border: 3px;
-    font-size: 1.5em;
-    font-weight: bolder; 
-}
-
-.titulo2 {
     color: blue;
     text-align: center;
     margin: 10px;
-    border: 1px dotted white;
+    border: 3px;
+    font-size: 1.5em;
+    font-weight: bolder; 
 }
 
 div {
@@ -330,4 +331,20 @@ h4 {
     position: sticky;
     top: 0px;
     left: 150px;
+}
+
+.copyright {
+    color:  #000000;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    border: black solid 1px;
+    background-color: rgb(1, 1, 196);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
