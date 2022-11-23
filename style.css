@@ -3,17 +3,26 @@
     padding: 0 0 0 0;
     box-sizing: 0;
 }
+nav {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    float: right;
+    background-color: black;
+    padding: 0px 5px 0px 0px;
+}
 nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 0;
     text-decoration: none;
-    padding: 0 0 0 0;
+    padding: 5px 0 0 15px;    
 }
 
 nav a {
-    color: rgb(254, 254, 254);
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
@@ -23,16 +32,14 @@ nav a {
 
 nav a:hover {
     font-size: 18px;
-    color: rgb(199, 0, 0);
+    color: blue;
     padding: 0 0 0 0;
 }
 
 #capa {
     width: 100%;
     float: center;
-    margin: 0 0 0 0;
-    position:static;
-    padding: 0 0 0 0;
+    margin: 20px 0px 0px 0px;
 }
 
 header { 
